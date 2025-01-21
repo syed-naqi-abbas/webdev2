@@ -5,7 +5,7 @@ const path = require("path");
 const { login, create } = require("./utils.js");
 
 const port = 3000;
-const host = "192.168.51.136";
+const host = "localhost";
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "templates/index.html"));
